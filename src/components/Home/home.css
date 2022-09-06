@@ -1,0 +1,46 @@
+.cardTitle{
+    text-align: center;
+    /* color:aliceblue; */
+    color: black;
+    font-weight: bold;
+}
+
+.cardBody{
+    background-color:orange
+}
+
+.card:link{
+    text-decoration: none;
+}
+.card:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    text-decoration: none;
+  }
+
+.catImg{
+    height:22vh;
+    bottom: 10px;
+}
+
+.home{
+    background-color:antiquewhite;
+}
+
+.Categories-main{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home-img{
+    height:min-content;
+    background-color: white;
+    opacity: 0.7;
+
+}
+.first-txt {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
