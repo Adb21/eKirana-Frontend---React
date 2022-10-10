@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {  useParams } from 'react-router-dom'
 import sample from 'C:/Users/bhosl/Desktop/Aditya_SSD/react/ekirana-frontend/src/media/sample.jpg'
 import "./ProductDetail.css" 
+import AddtoCartComponent from './AddtoCartComponent';
 
 
 const ProductDetailComponent = () => {
@@ -77,18 +78,7 @@ const ProductDetailComponent = () => {
           </div>
           <div className='col'>
             
-            <div className='d-flex justify-content-left add-to-cart'>
-         
-              {/* <h5 variant="primary" className='mx-2'>QTY</h5>  */}
-              <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary">-</Button>
-                <Button disabled={true} variant="light">0</Button>
-                <Button variant="secondary">+</Button>
-              </ButtonGroup>
-            </div>
-            <div className='d-flex justify-content-left atc-txt'>
-              <Button className='my-3' variant="warning">Add to Cart</Button>
-            </div>
+            <AddtoCartComponent product={product.id}/>
            
           </div>
         </div>

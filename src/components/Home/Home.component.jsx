@@ -8,13 +8,14 @@ export default function Home({categories}) {
         <div className='home-img'>
           
           <img className="d-block w-100"
-                src="https://blogs.vmware.com/sase/files/2018/03/Image_o-GROCERY-STORE-facebook.jpg"
+                // src="https://blogs.vmware.com/sase/files/2018/03/Image_o-GROCERY-STORE-facebook.jpg"
+                src='/assets/home/eKiarnaBack.jpg'
                 alt="First slide"/>
         </div>
         {/* <h1 class="first-txt">
             Welcome to eKirana
         </h1> */}
-        <CategoryCardComponent categories={categories}></CategoryCardComponent>
+        <CategoryCardComponent categories={categories}/>
     </div>
   )
 }

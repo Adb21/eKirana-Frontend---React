@@ -1,7 +1,11 @@
 import React from "react";
+import "./headerFooter.css"
+
 
 const Footer = () => 
-<footer className="page-footer font-small blue pt-4 text-white-50 bg-dark ">
+<div>
+
+<footer className="page-footer font-small blue pt-4 text-white-50 bg-dark">
     <div className="container-fluid text-center text-md-left ">
         <div className="row">
             <div className="col-md-6 mt-md-0 mt-3">
@@ -41,5 +45,6 @@ const Footer = () =>
     </div>
 
 </footer>
+</div>
 
 export default Footer
